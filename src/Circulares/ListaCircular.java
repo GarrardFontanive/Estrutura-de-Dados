@@ -1,4 +1,6 @@
-package ListasLineares;
+package Circulares;
+
+import Nodo.Nodo;
 
 public class ListaCircular {
     private Nodo inicio;

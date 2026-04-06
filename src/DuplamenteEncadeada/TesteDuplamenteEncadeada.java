@@ -1,4 +1,4 @@
-package ListasLineares;
+package DuplamenteEncadeada;
 
 public class TesteDuplamenteEncadeada {
     public static void main(String[] args) {

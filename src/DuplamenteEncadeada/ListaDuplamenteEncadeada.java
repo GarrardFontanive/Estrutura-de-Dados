@@ -1,16 +1,13 @@
-package ListasLineares;
+package DuplamenteEncadeada;
+import Nodo.NodoDuplo;
 
 public class ListaDuplamenteEncadeada {
     private NodoDuplo inicio;
     private NodoDuplo fim;
 
-    public ListaDuplamenteEncadeada(NodoDuplo inicio, NodoDuplo fim) {
-        this.inicio = null;
-        this.fim = null;
-    }
-
     public ListaDuplamenteEncadeada() {
         this.inicio = null;
+        this.fim = null;
         this.fim = null;
     }
 

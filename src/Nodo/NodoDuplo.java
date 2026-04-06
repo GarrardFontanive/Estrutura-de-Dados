@@ -1,4 +1,4 @@
-package ListasLineares;
+package Nodo;
 
 public class NodoDuplo {
     private int dado;

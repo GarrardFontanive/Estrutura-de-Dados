@@ -1,4 +1,4 @@
-package ListasLineares;
+package Nodo;
 
 public class TesteNodo {
     public static void main(String[] args) {

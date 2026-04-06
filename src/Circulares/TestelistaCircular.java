@@ -1,4 +1,4 @@
-package ListasLineares;
+package Circulares;
 
 public class TestelistaCircular {
     public static void main(String[] args){

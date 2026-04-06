@@ -1,4 +1,6 @@
-package ListasLineares;
+package Encadeada;
+
+import Nodo.Nodo;
 
 public class ListaEncadeada {
     private Nodo inicio;
