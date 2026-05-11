@@ -1,0 +1,6 @@
+*.class
+out/
+
+# IntelliJ local state
+.idea/**/workspace.xml
+.idea/**/shelf/

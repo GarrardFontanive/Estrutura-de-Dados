@@ -1,0 +1,11 @@
+O trabalho deve ser desenvolvido individualmente na linguagem de programação Java.
+
+O trabalho deve ser entregue em um único arquivo no formato PDF. Outros tipos de arquivo não serão avaliados.
+
+Certifique-se de que o trabalho esteja organizado de maneira clara para facilitar a correção. Utilize um tamanho de fonte e
+resolução adequados para garantir a legibilidade do código.
+
+Se o mesmo trabalho for entregue por mais de um aluno, a nota será dividida pelo número de alunos que entregaram o trabalho.
+
+Por exemplo, se dois alunos entregarem o mesmo trabalho, a nota será dividida por 2. Se três alunos entregarem o mesmo trabalho,
+a nota será dividida por 3, e assim por diante.
