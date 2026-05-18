@@ -56,7 +56,7 @@ public class Aeroporto {
     }
 
     private void gerarChegadasPouso(int tempo) {
-        int qtd = rand.nextInt(2) + 1;
+        int qtd = rand.nextInt(3);
 
         for (int i = 0; i < qtd; i++) {
             int combustivel = rand.nextInt(20) + 1;
@@ -73,10 +73,10 @@ public class Aeroporto {
     }
 
     private void gerarChegadasDecolagem(int tempo) {
-        int qtd = rand.nextInt(2) + 1;
+        int qtd = rand.nextInt(3);
 
         for (int i = 0; i < qtd; i++) {
-            Aviao novo = new Aviao(idDecolagem, 0, tempo);
+            Aviao novo = new Aviao(idDecolagem, 10, tempo);
 
             if (decolagem1.getTamanho() <= decolagem2.getTamanho()) {
                 decolagem1.inserirFinal(novo);
