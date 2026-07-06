@@ -3,7 +3,7 @@ package work2;
 public class SortMetrics {
     private long comparacoes;
     private long movimentacoes;
-    private long tempoExecucaoNs;
+    private long tempoExecucaoMs;
 
     void incrementarComparacoes() {
         comparacoes++;
@@ -26,14 +26,14 @@ public class SortMetrics {
     }
 
     long getTempoExecucaoNs() {
-        return tempoExecucaoNs;
+        return tempoExecucaoMs;
     }
 
     double getTempoExecicaoMs() {
-        return tempoExecucaoNs / 1_000_000.0;
+        return tempoExecucaoMs / 1_000_000.0;
     }
 
     void setTempoExecucaoNs(long tempoExecucaoNs) {
-        this.tempoExecucaoNs = tempoExecucaoNs;
+        this.tempoExecucaoMs = tempoExecucaoNs;
     }
 }
