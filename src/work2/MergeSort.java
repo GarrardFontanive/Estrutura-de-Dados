@@ -1,6 +1,6 @@
 package work2;
 
-public class MerchSort implements Sorter{
+public class MergeSort implements Sorter{
     @Override
     public String getNome() {
         return "Merch Sort";
