@@ -17,7 +17,7 @@ public class BubbleSort implements Sorter{
             for (int j = 0; j < n - 1 - i ; j++) {
                 metricas.incrementarComparacoes();
 
-                if (vetor[j] > vetor[j - 1]) {
+                if (vetor[j] > vetor[j + 1]) {
                     int temp = vetor[j];
                     vetor[j] = vetor[j + 1];
                     vetor [j + 1] = temp;
